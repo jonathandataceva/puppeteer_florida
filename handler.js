@@ -1,5 +1,7 @@
 // handler.js
-import puppeteer from 'puppeteer';
+const puppeteer = require('puppeteer');
+async function main() { /* … */ }
+module.exports = { main };
 
 export async function main() {
   const DOWNLOAD_URL = 'https://data-download.mqa.flhealthsource.gov/LicensureData?fileName=LIC_701-P.txt&handler=DownloadDataFile';
